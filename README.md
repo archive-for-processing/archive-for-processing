@@ -14,16 +14,46 @@ This independent initiative is not an official project of the Processing Foundat
 
 ### libraries
 
-Libraries are collected _except_ ones integrated into Processing / PDE or hosted on the official processing foundation github account at https://github.com/processing/
+Contributed libraries -- this means all libraries _except_ ones integrated into Processing / p5.js / PDE or hosted on the official processing foundation github account at https://github.com/processing/.
 
 -  collected Java mode (and some Java-affiliated) listings on processing.org:
    -  [Libraries listed processing.org](https://processing.org/reference/libraries/) are forked if they link to an open source repository on github.
+-  collected p5.js listings:
+   -  https://github.com/ITPNYU/p5.ble.js
+   -  https://github.com/sarahgp/p5bots
+   -  https://github.com/Lartu/p5.clickable
+   -  https://github.com/bmoren/p5.collide2D
+   -  https://github.com/piratesjustar/p5.createLoop
+   -  https://github.com/Smilebags/p5.dimensions.js
+   -  https://github.com/loneboarder/p5.experience.js
+   -  https://github.com/IDMNYU/p5.js-func
+   -  https://github.com/bmoren/p5.geolocation
+   -  https://github.com/charlieroberts/p5.gibber.js
+   -  https://github.com/jagracar/grafica.js
+   -  https://github.com/bitcraftlab/p5.gui
+   -  https://github.com/cvalenzuela/Mappa
+   -  https://github.com/bobcgausa/cook-js
+   -  https://github.com/molleindustria/p5.play
+   -  https://github.com/dhowe/RiTaJS
+   -  https://github.com/mveteanu/p5.SceneManager
+   -  https://github.com/generative-light/p5.scribble.js
+   -  https://github.com/p5-serial/p5.serialport
+   -  https://github.com/IDMNYU/p5.js-speech
+   -  https://github.com/linux-man/p5.tiledmap
+   -  https://github.com/Dozed12/p5.voronoi
+   -  
 -  Other (e.g. announced through forum posts):
    -  https://github.com/linux-man/VLCJVideo
    -  https://github.com/archive-for-processing/GameLibZero
    -  Johnny-Five for Processing p5.js https://github.com/monteslu/p5.j5
-   
-### unarchived libraries
+
+### unarchived libraries (javascript)
+
+-  ASCII art https://www.tetoki.eu/asciiart/
+-  p5.3D https://github.com/FreddieRa/p5.3D
+-  vida https://www.tetoki.eu/vida/
+
+### unarchived libraries (java)
 
 -  Not available on github:
    -  Bitbucket
