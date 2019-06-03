@@ -105,6 +105,7 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  Eliza by Andres Colubri http://interfaze.info/libraries/eliza/
    -  https://github.com/danieljayB/jpcapSniffer https://forum.processing.org/two/discussion/6408/processing-library-construction-help-feedback
    -  https://forum.processing.org/two/discussion/6815/lemmingsscanner-release
+   -  KinematikJava http://labaaa.org/kinematikjava/ https://forum.processing.org/two/discussion/10245/library-for-kinematics-of-6-axis-robot
 
 -  Unforkable:  
    Some Processing libraries are forks of the Processing Library Template. Due to a limitation in GitHub, they cannot be forked by the same account (libraries that cannot be forked due to shared ancestor limitations).
@@ -136,7 +137,7 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
 -  gicentre https://www.gicentre.net/software/
 -  forum two:
    -  https://forum.processing.org/two/categories/create-announce-libraries
-      -  pgs 5-8
+      -  pgs 5-8: complete
          - [x] BlobScanner https://github.com/robdanet/blobscanner https://forum.processing.org/two/discussion/2518/blobscanner-new-release-v-0-1-alpha
          - [x] colorlib https://github.com/vormplus/colorLib https://forum.processing.org/two/discussion/10054/colorlib-2-0-0-for-processing-2
          - [x] L3D https://github.com/enjrolas/L3D-Library https://forum.processing.org/two/discussion/8325/led-cube-library-for-processing
@@ -146,8 +147,10 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
          - [x] PatchMatch https://github.com/davidchatting/PatchMatch
          - [x] SurfaceLib https://github.com/eskimoblood/surfacelib https://forum.processing.org/two/discussion/4112/porting-surfacelib-to-processing-2
          - [x] VMap (SurfaceMapper for Processing 2) https://github.com/AlanChatham/VMap https://forum.processing.org/two/discussion/7635/surfacemapper-fork-for-processing-2
-      -  pgs 1-5
-         - ...
+         - [x] blob-tracker https://github.com/pschaeffer/blob-tracker https://forum.processing.org/two/discussion/10117/new-processing-libraries
+         - [x] color-palette https://github.com/pschaeffer/color-palette https://forum.processing.org/two/discussion/10117/new-processing-libraries
+      -  pgs 1-4:
+         - ... not yet collected
    -  https://forum.processing.org/two/categories/create-announce-modes
    -  https://forum.processing.org/two/categories/create-announce-tools
 
