@@ -58,6 +58,7 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
 -  Not available on github:
    -  Bitbucket
       -  toxiclibs https://bitbucket.org/postspectacular/toxiclibs/
+      -  PControls https://forum.processing.org/two/discussion/454/processing-pcontrols https://bitbucket.org/fpercival/processing-pcontrols/downloads/
    -  gitorious
       -  http://www.ricardmarxer.com/fisica/
    -  Google Code
@@ -70,10 +71,13 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  SourceForge
       -  projms https://sourceforge.net/projects/projms/ https://www.graffitiresearchlab.de/projms/
 -  Not found (self-hosted / private / unclear)
-      -  AULib https://imaginary-institute.com/resources/AULibrary/AULibrary.php
+      -  AULib https://imaginary-institute.com/resources/AULibrary/AULibrary.php https://forum.processing.org/two/discussion/7745/au-library-released
       -  BlobDetection http://www.v3ga.net/processing/BlobDetection/
+      -  J4K (Java4Kinect) https://forum.processing.org/two/discussion/1497/j4k-java-for-kinect-library-is-now-released-for-processing-2
       -  GaussSense SDK http://developers.gausstoys.com/ https://github.com/gausstoys
       -  ID3 http://jorgecardoso.eu/processing/ID3/
+      -  ImageP ImageJ for Processing https://forum.processing.org/two/discussion/2924/porting-imagej-to-processing-a-first-class-videowriter
+      -  File search class https://forum.processing.org/two/discussion/6878/file-search-class
       -  MapThing http://www.reades.com/MapThing/
       -  PixelPusher http://www.heroicrobotics.com/
       -  P8gGraphicsSVG http://phi.lho.free.fr/programming/Processing/P8gGraphicsSVG/
@@ -99,17 +103,25 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  SFTP for Processing https://shiffman.net/2007/06/04/sftp-with-java-processing/
    -  Tablet by Andres Colubri http://interfaze.info/libraries/tablet/
    -  Eliza by Andres Colubri http://interfaze.info/libraries/eliza/
+   -  https://github.com/danieljayB/jpcapSniffer https://forum.processing.org/two/discussion/6408/processing-library-construction-help-feedback
+   -  https://forum.processing.org/two/discussion/6815/lemmingsscanner-release
 
 -  Unforkable:  
    Some Processing libraries are forks of the Processing Library Template. Due to a limitation in GitHub, they cannot be forked by the same account (libraries that cannot be forked due to shared ancestor limitations).
+   -  colourlovers https://forum.processing.org/two/discussion/2736/new-library-that-integrates-processing-with-colourlovers-com https://github.com/triss/colourlovers
    -  grafica (java version) https://github.com/jagracar/grafica/tree/master/src/grafica
+   -  HersheyFont https://github.com/ixd-hof/HersheyFont https://forum.processing.org/two/discussion/9520/hershey-line-font-library
    -  HPGLGraphics https://github.com/ciaron/HPGLGraphics
+   -  keystoned https://github.com/clankill3r/keystoned/ (update described in https://forum.processing.org/two/discussion/4338/keystoned-update-on-david-bouchard-keystone-library)
+   -  mbedJS-Processing-API https://github.com/nyatla/mbedJS-Processing-API https://forum.processing.org/two/discussion/6466/processing-mbed-over-websocket
    -  NextText https://github.com/prisonerjohn/NextText
    -  picking https://github.com/nclavaud/picking
    -  processing-countdowntimer https://github.com/dhchoi/processing-countdowntimer
    -  proscene https://github.com/remixlab/proscene
+   -  RiftIt (Occulus Rift) https://github.com/pion3er/RiftIt https://forum.processing.org/two/discussion/2223/riftit-oculus-rift-for-processing
    -  vsync https://github.com/erniejunior/VSync-for-Processing
    -  wooting keyboard https://github.com/Shinhoo/Wooting-Keyboard-Library
+   -  SeeneLib https://forum.processing.org/two/discussion/935/unofficial-seene-library https://github.com/BenVanCitters/SeeneLib---Processing-Library
 
 ## modes and related systems
 
@@ -124,6 +136,18 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
 -  gicentre https://www.gicentre.net/software/
 -  forum two:
    -  https://forum.processing.org/two/categories/create-announce-libraries
+      -  pgs 5-8
+         - [x] BlobScanner https://github.com/robdanet/blobscanner https://forum.processing.org/two/discussion/2518/blobscanner-new-release-v-0-1-alpha
+         - [x] colorlib https://github.com/vormplus/colorLib https://forum.processing.org/two/discussion/10054/colorlib-2-0-0-for-processing-2
+         - [x] L3D https://github.com/enjrolas/L3D-Library https://forum.processing.org/two/discussion/8325/led-cube-library-for-processing
+         - [x] OpenDMX https://github.com/orcaomar/processing-opendmx https://forum.processing.org/two/discussion/5444/direct-opendmx-hardware-control-from-processing-for-windows-only
+         - [x] PSR Processing Recorder Library https://github.com/tomasgvivo/PSR https://forum.processing.org/two/discussion/6110/processing-recorder-library
+         - [x] Processinglue https://github.com/yasutonakanishi/Processinglue
+         - [x] PatchMatch https://github.com/davidchatting/PatchMatch
+         - [x] SurfaceLib https://github.com/eskimoblood/surfacelib https://forum.processing.org/two/discussion/4112/porting-surfacelib-to-processing-2
+         - [x] VMap (SurfaceMapper for Processing 2) https://github.com/AlanChatham/VMap https://forum.processing.org/two/discussion/7635/surfacemapper-fork-for-processing-2
+      -  pgs 1-5
+         - ...
    -  https://forum.processing.org/two/categories/create-announce-modes
    -  https://forum.processing.org/two/categories/create-announce-tools
 
