@@ -122,4 +122,8 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
 ## to survey
 
 -  gicentre https://www.gicentre.net/software/
+-  forum two:
+   -  https://forum.processing.org/two/categories/create-announce-libraries
+   -  https://forum.processing.org/two/categories/create-announce-modes
+   -  https://forum.processing.org/two/categories/create-announce-tools
 
