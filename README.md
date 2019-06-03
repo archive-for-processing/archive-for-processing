@@ -79,6 +79,7 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
       -  ImageP ImageJ for Processing https://forum.processing.org/two/discussion/2924/porting-imagej-to-processing-a-first-class-videowriter
       -  File search class https://forum.processing.org/two/discussion/6878/file-search-class
       -  MapThing http://www.reades.com/MapThing/
+      -  network graph visualizer https://forum.processing.org/two/discussion/7765/network-graph-visualizer-announcement
       -  PixelPusher http://www.heroicrobotics.com/
       -  P8gGraphicsSVG http://phi.lho.free.fr/programming/Processing/P8gGraphicsSVG/
       -  quark / Peter Lager libraries, all: http://www.lagers.org.uk/
