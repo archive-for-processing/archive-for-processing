@@ -132,6 +132,12 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
 -  p5py https://github.com/p5py/p5
 -  Processing.py https://github.com/jdf/processing.py
 -  Processing for Android https://github.com/archive-for-processing/processing-android
+-  Processing.R https://github.com/archive-for-processing/Processing.R
+
+## other
+
+-  APDE (Android) https://github.com/archive-for-processing/APDE
+-  TweakMode https://github.com/archive-for-processing/TweakMode
 
 ## to survey
 
