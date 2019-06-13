@@ -47,6 +47,9 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  https://github.com/archive-for-processing/GameLibZero
    -  Johnny-Five for Processing p5.js https://github.com/monteslu/p5.j5
 
+### now archived from non-github sources:
+   -  triangulate
+
 ### unarchived libraries (javascript)
 
 -  ASCII art https://www.tetoki.eu/asciiart/
@@ -73,6 +76,7 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
 -  Not found (self-hosted / private / unclear)
       -  AULib https://imaginary-institute.com/resources/AULibrary/AULibrary.php https://forum.processing.org/two/discussion/7745/au-library-released
       -  BlobDetection http://www.v3ga.net/processing/BlobDetection/
+      -  correlations http://www.muehlseife.de/correlations-library/
       -  J4K (Java4Kinect) https://forum.processing.org/two/discussion/1497/j4k-java-for-kinect-library-is-now-released-for-processing-2
       -  GaussSense SDK http://developers.gausstoys.com/ https://github.com/gausstoys
       -  ID3 http://jorgecardoso.eu/processing/ID3/
@@ -80,6 +84,7 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
       -  File search class https://forum.processing.org/two/discussion/6878/file-search-class
       -  MapThing http://www.reades.com/MapThing/
       -  network graph visualizer https://forum.processing.org/two/discussion/7765/network-graph-visualizer-announcement
+      -  Papaya a.com/papayastatistics/ -- must be built from source? https://discourse.processing.org/t/can-someone-try-to-find-this-library-in-processing/1488/11 -- older mirror here: https://github.com/kfrajer/papaya
       -  PixelPusher http://www.heroicrobotics.com/
       -  P8gGraphicsSVG http://phi.lho.free.fr/programming/Processing/P8gGraphicsSVG/
       -  quark / Peter Lager libraries, all: http://www.lagers.org.uk/
@@ -95,6 +100,7 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
       -  SuperCollider client for Processing http://www.erase.net/projects/processing-sc/
       -  temboo https://temboo.com/processing
       -  toloop https://discourse.processing.org/t/tooloop-open-media-server/1680
+      -  Traer Physics 3.0 http://murderandcreate.com/physics/
       -  ttslib https://www.local-guru.net/blog/pages/ttslib
       -  UDP http://ubaa.net/shared/processing/udp/
 -  Broken links:
@@ -121,9 +127,10 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  processing-countdowntimer https://github.com/dhchoi/processing-countdowntimer
    -  proscene https://github.com/remixlab/proscene
    -  RiftIt (Occulus Rift) https://github.com/pion3er/RiftIt https://forum.processing.org/two/discussion/2223/riftit-oculus-rift-for-processing
+   -  SeeneLib https://forum.processing.org/two/discussion/935/unofficial-seene-library https://github.com/BenVanCitters/SeeneLib---Processing-Library
    -  vsync https://github.com/erniejunior/VSync-for-Processing
    -  wooting keyboard https://github.com/Shinhoo/Wooting-Keyboard-Library
-   -  SeeneLib https://forum.processing.org/two/discussion/935/unofficial-seene-library https://github.com/BenVanCitters/SeeneLib---Processing-Library
+
 
 ## modes and related systems
 
@@ -161,3 +168,8 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  https://forum.processing.org/two/categories/create-announce-modes
    -  https://forum.processing.org/two/categories/create-announce-tools
 
+### general purpose Java resources (not Processing-specific)
+
+-  https://math.nist.gov/javanumerics/jama/
+
+   
