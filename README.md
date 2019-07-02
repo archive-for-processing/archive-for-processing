@@ -41,11 +41,12 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  https://github.com/IDMNYU/p5.js-speech
    -  https://github.com/linux-man/p5.tiledmap
    -  https://github.com/Dozed12/p5.voronoi
-   -  
+
 -  Other (e.g. announced through forum posts):
    -  https://github.com/linux-man/VLCJVideo
    -  https://github.com/archive-for-processing/GameLibZero
    -  Johnny-Five for Processing p5.js https://github.com/monteslu/p5.j5
+   -  https://github.com/PBernalPolo/RPiModules
 
 ### now archived from non-github sources:
    -  triangulate
