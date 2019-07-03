@@ -47,6 +47,8 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  https://github.com/archive-for-processing/GameLibZero
    -  Johnny-Five for Processing p5.js https://github.com/monteslu/p5.j5
    -  https://github.com/PBernalPolo/RPiModules
+   -  https://discourse.processing.org/t/networking-processing-client-to-php-server/12466
+
 
 ### now archived from non-github sources:
    -  triangulate
