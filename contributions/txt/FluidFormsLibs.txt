@@ -429,7 +429,7 @@ a:hover,
       </ul>
     </nav>
     
-    <ul class="cactus-portfolio-list cactus-list-md-3 cactus-list-sm-2 full" id="portfolio-5d073d79a7090">
+    <ul class="cactus-portfolio-list cactus-list-md-3 cactus-list-sm-2 full" id="portfolio-5d2b8c5671dae">
     
     <li id="cactus-work-0" class="mix element-item grid-item group-design">
         <div class="cactus-gallery-item cactus-animation" data-animationduration="0.6" data-animationtype="fadeInUp"> <div class="cactus-gallery-figure"><img src="https://fluidforms.eu/wp-content/uploads/2019/02/living-room-2569325_1280-e1549456166506-480x360.jpg" alt="">
@@ -493,7 +493,7 @@ a:hover,
 <script>
 jQuery(window).load(function(e) {
 	
-	var containerEl = document.querySelector('#portfolio-5d073d79a7090');
+	var containerEl = document.querySelector('#portfolio-5d2b8c5671dae');
     var mixer = mixitup(containerEl);
 	jQuery('.cactus-portfolio-filter').on( 'click', 'a', function() {
 		jQuery(this).parents('.cactus-portfolio-filter').find('li').removeClass('active');

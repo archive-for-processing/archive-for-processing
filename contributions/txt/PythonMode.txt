@@ -1,11 +1,11 @@
-name = Python
+name = Python Mode for Processing 3
 authorList = [Jonathan Feinberg](http://MrFeinberg.com/)
 url = https://github.com/jdf/processing.py
 sentence = Write Processing sketches in Python.
 paragraph =
-version = 0412
-prettyVersion = Build 0412, built 2015/07/08 14:03
-# 2.2.1
-minRevision = 227
-# 3.0a5
-maxRevision = 232
+version = 3056
+prettyVersion = 3056
+# 3.0
+minRevision = 246
+# <3.2
+maxRevision = 0
