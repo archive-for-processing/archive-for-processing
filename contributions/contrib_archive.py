@@ -4,6 +4,8 @@
 # Contributions Manager listings:
 #   Libraries, Examples, Tools, and Modes
 # -- including disabled, if available --
+# 
+# Usage: contrib_archive.py
 
 import logging
 import os

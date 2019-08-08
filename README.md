@@ -12,6 +12,55 @@ The repository forks here are not maintained in any way, even if the original is
 
 This independent initiative is not an official project of the Processing Foundation.
 
+## Scripts
+
+This repository contains two main scripts:
+
+1.  contirbutions/contrib_archive.py
+
+    Downloads all PDE Contributions Manager listings: Libraries, Examples,
+    Tools, and Modes -- including disabled, if available -- as txt listings
+    and zip files.
+    
+    -  txt listings are archived in the 'data' branch, under contributions/txt
+    -  zip files are not stored in this repository
+
+2.  github_fork_updater.py
+
+    Attempts to periodically keep the master branch of all forks on all repos
+    up-to-date on GitHub, using the API and the following sequence:
+    
+    ```
+    git clone repo_url
+    git remote add upstream repo.source.clone_url
+    git fetch upstream
+    git checkout master
+    git merge upstream/master
+    git push
+    ```
+
+## Sources
+
+The GitHub project account contains a large number of forked repos.
+These are maintained through a github org account and its forks.
+Some of these (and some resources which are not repos, or cannot be forked) are found below in a manually updated and sorted list. Repo forks are periodically brought up to date on their master branch with `github_fork_updater.py` 
+
+Forks are only made of public repos. If accounts are removed, repos are deleted, or repos are taken private, the archive fork attempts to preserve that last public snapshot of the repo.
+
+> https://help.github.com/en/articles/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility
+>
+> **Deleting a public repository**  
+> When you delete a public repository, one of the existing public forks is chosen to be the new parent repository. All other repositories are forked off of this new parent and subsequent pull requests go to this new parent.
+> 
+> **Changing a public repository to a private repository**  
+> If a public repository is made private, its public forks are split off into a new network. As with deleting a public repository, one of the existing public forks is chosen to be the new parent repository and all other repositories are forked off of this new parent. Subsequent pull requests go to this new parent.
+
+A key limitation is that the Processing Library Template has been forked by a number of projects.
+Each of these projects counts as the "same repo," and thus only one of all of them can be forked by the Archive for Processing account.
+
+A workaround might involve iterating over an "unforkable" url list and treating as a remote for a clean repo outside the API.
+
+
 ### libraries
 
 Contributed libraries -- this means all libraries _except_ ones integrated into Processing / p5.js / PDE or hosted on the official processing foundation github account at https://github.com/processing/.

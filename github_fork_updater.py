@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 
 """GitHub fork updater.
+
+Usage:
+configure credentials, then run
+    github_fork_updater.py
+
 In order to keep all forks on all repos up-to-date on GitHub.
 Ideally I would like to use the API to drop a fork and re-fork it, only if the
 source still exists.
