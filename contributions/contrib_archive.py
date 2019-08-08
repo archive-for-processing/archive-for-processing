@@ -64,11 +64,11 @@ results = p.findall(f_text)
 
 # loop over urls
 for url_txt in results:
-    # ownload txt, if not downloaded
+    # download txt, if not downloaded
     txt_output_dir = os.path.join(basepath, 'txt')
     save_urlfile(url_txt, txt_output_dir)
     # build artifact by convention is .zip corresponding to .txt
-    # ownload zip, if not downloaded
+    # download zip, if not downloaded
     url_zip = re.sub('.txt$', '.zip', url_txt)
     zip_output_dir = os.path.join(basepath, 'zip')
     save_urlfile(url_zip, zip_output_dir)
