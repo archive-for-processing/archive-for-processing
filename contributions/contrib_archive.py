@@ -6,6 +6,8 @@
 # -- including disabled, if available --
 # 
 # Usage: contrib_archive.py
+#
+# Sample run iterates over ~500 entries in 30 minutes (519/29.3).
 
 import logging
 import os
