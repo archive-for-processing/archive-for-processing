@@ -1,8 +1,8 @@
 # Archive for Processing
 
-Archive for Processing is an (unofficial) archive of resources for the Processing community.
+Archive for Processing is an (unofficial) archive of resources for the Processing community. It collects software related to Processing, p5.js, Python mode / Processing.py, p5py, pyp5js, R Mode / Processing.R, and other related languages, modes, libraries, and tools.
 
-It is intended to make the distributed ecosystem of open source libraries, modes, tools, example sets, and documentation a bit more robust.
+It is intended to make the distributed ecosystem of open source libraries, modes, tools, example sets, and documentation a bit more robust. It does this by acting as a fallback, providing simple redundancy via a list of forked GitHub repositories and offline backup for distributed binaries. These forks and binary backups are to help guard against future project loss. In particular, given that many of the core open source resources of the Processing community are generously self-hosted by their contributing authors, the archive attempt to keep such works available even if their associated accounts, websites, et cetera are no longer maintained.
 
 Archive for Processing may also serve as a list / index for browsing the amazing variety of Processing resources. However, this is an infrequently updated archive, not a directory -- it is not comprehensive. More importantly, it is **not a live mirror**! Always use original official author repositories whenever available.
 
@@ -26,6 +26,8 @@ This GitHub organization account approaches this goal in the following ways:
       an old release is lost.
 
 This archive contains both inactive and active projects -- it includes forks of ongoing, under-development repositories. When viewing a repository in the archive, **FIRST CHECK THE SOURCE REPO** linked under the title, if that original source exists. The archival forks may be out-of-date, with an up-to-date version being developed by the original author or maintainer. Forks for active repositories do not automatically update -- they are snapshots that must be periodically refreshed.
+
+Like the work of the Processing Foundation, which is developed and distributed through GitHub, Archive for Processing collections are biased towards collecting GitHub-based projects. There are software tools in the Processing ecosystem that were set up to be distributed in other ways -- either via another public repo such as Google Code, SourceForge, BitBucket, et cetera, or self-hosted. Identifying and developing a workflow to archive those resources is an ongoing effort.
 
 The repository forks here are not maintained in any way, even if the original is no longer available. As such, they do not accept issues, comments, etc. They are available to fork for interested developers, including future volunteer maintainers.
 
