@@ -4,6 +4,10 @@
 # Contributions Manager listings:
 #   Libraries, Examples, Tools, and Modes
 # -- including disabled, if available --
+# 
+# Usage: contrib_archive.py
+#
+# Sample run iterates over ~500 entries in 30 minutes (519/29.3).
 
 import logging
 import os
@@ -63,12 +67,16 @@ p = re.compile('http.*\.txt')
 results = p.findall(f_text)
 
 # loop over urls
+downloaded_zips = set()
 for url_txt in results:
-    # ownload txt, if not downloaded
+    # download txt, if not downloaded
     txt_output_dir = os.path.join(basepath, 'txt')
     save_urlfile(url_txt, txt_output_dir)
     # build artifact by convention is .zip corresponding to .txt
-    # ownload zip, if not downloaded
+    # download zip, if not downloaded
     url_zip = re.sub('.txt$', '.zip', url_txt)
-    zip_output_dir = os.path.join(basepath, 'zip')
-    save_urlfile(url_zip, zip_output_dir)
+    # avoid redownloading the same zip url multiple times
+    if url_zip not in downloaded_zips:
+        zip_output_dir = os.path.join(basepath, 'zip')
+        save_urlfile(url_zip, zip_output_dir)
+        downloaded_zips.add(url_zip)
