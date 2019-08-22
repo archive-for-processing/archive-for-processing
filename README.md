@@ -16,7 +16,7 @@ This independent initiative is not an official project of the Processing Foundat
 
 This repository contains two main scripts:
 
-1.  contirbutions/contrib_archive.py
+1.  contributions/contrib_archive.py
 
     Downloads all PDE Contributions Manager listings: Libraries, Examples,
     Tools, and Modes -- including disabled, if available -- as txt listings
