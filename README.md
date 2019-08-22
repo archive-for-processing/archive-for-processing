@@ -76,11 +76,14 @@ Forks are only made of public repos. If accounts are removed, repos are deleted,
 > **Changing a public repository to a private repository**  
 > If a public repository is made private, its public forks are split off into a new network. As with deleting a public repository, one of the existing public forks is chosen to be the new parent repository and all other repositories are forked off of this new parent. Subsequent pull requests go to this new parent.
 
+### Libraries forked from the Library Template
+
 A key limitation is that the Processing Library Template has been forked by a number of projects.
 Each of these projects counts as the "same repo," and thus only one of all of them can be forked by the Archive for Processing account.
 
 A workaround might involve iterating over an "unforkable" url list and treating as a remote for a clean repo outside the API.
 
+## Notes on Collecting
 
 ### libraries
 
