@@ -6,6 +6,29 @@ Usage:
 configure credentials, then run
     github_fork_updater.py
 
+1. Uses GitHub API to retrieve a list of forks from an account
+2. Checks the remote fork against its source for changed source.master commits
+3. If the source changed, clones the fork, pulls the source, and pushes to fork
+   (all on master) -- bringing that fork up-to-date on GitHub
+
+Clones are downloaded to a cache directory. Depending on the total number of
+forks to check, the total number of forks to be brought up-to-date, and whether
+out-of-date forks are already locally cloned in the cache during a previous
+script run, the total run time may range from minutes to hours. A run checking
+~250 repositories and updating 5 of them took just under 10 minutes.
+
+The cache is useful on repeat clones, as it saves bandwidth and time. However
+it may be deleted any time the script is not running. On subsequent runs only
+updated repos will be cloned -- so an initial cache of 250 sites may be
+deleted and on a subsequent run will become a cache of 5 sites.
+
+
+HOWEVER, there is one site in particular -- sketch-a-day -- that is 5GB, and
+updated daily. If the cache is deleted, the whole 5GB must be downloaded again!
+
+
+Background:
+
 In order to keep all forks on all repos up-to-date on GitHub.
 Ideally I would like to use the API to drop a fork and re-fork it, only if the
 source still exists.
@@ -52,6 +75,17 @@ merged and pushed. There are other "full backup" tools for org accounts that
 it could perhaps integrate with running on top of, rather than trying to
 recreate. Then perhaps the wiki could be used rather than the README.txt for
 indexing.
+
+Notes:
+
+Currently os.system('git clone') logs an error if a repo has previously been
+added to the cache:
+
+    fatal: destination path 'p5.ble.js' already exists and is not an empty
+    directory.
+
+However this error is fine; subsequent git commands work as long as the
+original clone operation was successful / valid.
 
 """
 
