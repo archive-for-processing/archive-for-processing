@@ -70,7 +70,7 @@ def main(user, passwd, orgname):
 
     # for repo in g.get_user().get_repos():
 
-    print('Checking each forked repo for a source whose master branch' +
+    print('Checking each forked repo for a source whose master branch ' +
           'has a more recent commit')
     for repo in repos:
         print('...', repo.name)
@@ -84,7 +84,7 @@ def main(user, passwd, orgname):
             # for example, proscene shows its upstream clone from the template
             # and not the fact that archive forked from proscene
             # https://github.com/archive-for-processing/proscene.git
-            # https://github.com/processing/processing-library-template.git 
+            # https://github.com/processing/processing-library-template.git
             # ... as a result, the last commit hashes don't match, even
             # though the archive fork is up to date with the proscene fork:
             # 88384b1322e107cf0774cf44ed65f00002a3d877
@@ -98,10 +98,10 @@ def main(user, passwd, orgname):
             # One weird error -- commits don't match, but nothing to update.
             # As with the template, the issue appears to be that it is
             # a fork of a fork.
-            # 
+            #
             # ... p5.ble.js
-            # https://github.com/archive-for-processing/p5.ble.js.git : https://github.com/yining1023/p5.ble.js.git 
-            # bb1f3b37c8b7666a2c87b505da772aa7c78e0588 : 09fc26e7e920594c87c7aac41104411978bf6e4c 
+            # https://github.com/archive-for-processing/p5.ble.js.git : https://github.com/yining1023/p5.ble.js.git
+            # bb1f3b37c8b7666a2c87b505da772aa7c78e0588 : 09fc26e7e920594c87c7aac41104411978bf6e4c
             # fatal: destination path 'p5.ble.js' already exists and is not an empty directory.
             # unpack_dir: /Users/jeremydouglass/git/__unpack_archive/p5.ble.js
             # fatal: remote upstream already exists.
@@ -112,10 +112,10 @@ def main(user, passwd, orgname):
 
             print('repos:\n  ', repo.clone_url, '\n  ', repo.source.clone_url)
             print('commits:\n  ', repo.get_branch('master').commit.sha, '\n  ', repo.source.get_branch('master').commit.sha, '\n')
-            
-            # Note that repo.source.last_modified is always identical to 
+
+            # Note that repo.source.last_modified is always identical to
             # repo.last_modified even when the repo is out of date.
-    
+
             os.chdir(unpack_root)
             print(os.system("git clone " + repo.clone_url))
             unpack_dir = os.path.join(unpack_root, repo.name)
