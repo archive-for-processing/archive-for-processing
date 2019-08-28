@@ -249,3 +249,77 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
 -  https://math.nist.gov/javanumerics/jama/
 
    
+## GitHub Topics
+
+-  https://github.com/topics/android-mode 2
+-  https://github.com/topics/apde 3
+-  https://github.com/topics/coding-train 19
+-  https://github.com/topics/codingtrain 12
+-  https://github.com/topics/jruby-art 2
+-  https://github.com/topics/jrubyart 11
+-  https://github.com/topics/natureofcode 17
+-  https://github.com/topics/p5 253
+-  https://github.com/topics/p5-js 45
+-  https://github.com/topics/p5-library 26
+-  https://github.com/topics/p5-sketches 85
+-  https://github.com/topics/p5js 1438
+-  https://github.com/topics/p5js-gallery 15
+-  https://github.com/topics/p5js-game 96
+-  https://github.com/topics/p5js-library 6
+-  https://github.com/topics/p5py 2
+-  https://github.com/topics/p5xjs 10
+-  https://github.com/topics/pde 113
+-  https://github.com/topics/processing 2220
+-  https://github.com/topics/processing-android 7
+-  https://github.com/topics/processing-animation 50
+-  https://github.com/topics/processing-arduino 1
+-  https://github.com/topics/processing-cloud 1
+-  https://github.com/topics/processing-database 1
+-  https://github.com/topics/processing-enviroment 1
+-  https://github.com/topics/processing-ide 52
+-  https://github.com/topics/processing-java 6
+-  https://github.com/topics/processing-kinect 1
+-  https://github.com/topics/processing-kotlin 1
+-  https://github.com/topics/processing-la 1
+-  https://github.com/topics/processing-language 66
+-  https://github.com/topics/processing-library 88
+-  https://github.com/topics/processing-postfx 1
+-  https://github.com/topics/processing-postfx 2
+-  https://github.com/topics/processing-python 19
+-  https://github.com/topics/processing-sketch 103
+-  https://github.com/topics/processing-theme 2
+-  https://github.com/topics/processing-toolbox 4
+-  https://github.com/topics/processing-tutorial 1
+-  https://github.com/topics/processing-visualization-language 1
+-  https://github.com/topics/processing-visuals 44
+-  https://github.com/topics/processing3 41
+-  https://github.com/topics/processingjs 114
+-  https://github.com/topics/processingjs-editor 2
+-  https://github.com/topics/purescript-p5 1
+-  https://github.com/topics/pyprocessing 2
+-  https://github.com/topics/python-mode 3
+-  https://github.com/topics/react-p5 1
+-  https://github.com/topics/react-p5-wrapper 3
+
+### related topics
+
+-  https://github.com/topics/algorithmic-art 20
+-  https://github.com/topics/creative-coding 428
+-  https://github.com/topics/creativecoding 26
+-  https://github.com/topics/generative-art 432
+-  https://github.com/topics/generative-music 37
+-  https://github.com/topics/generativeart 2
+-  https://github.com/topics/live-coding 155
+-  https://github.com/topics/livecoding 118
+-  https://github.com/topics/procedural-generation 695
+-  https://github.com/topics/proceduralgeneration 7
+
+### misc findings
+
+-  https://github.com/topics/quil
+   -  https://github.com/quil/quil
+-  https://github.com/topics/processingkit 1 
+-  https://github.com/topics/processing4lua 1
+   -  http://ateneaweb.tech/lua/lua-p5js/
+   -  https://github.com/elihugarret/lua-p5js
+   -  http://www.pawfal.org/fluxus/
