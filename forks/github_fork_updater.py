@@ -99,7 +99,7 @@ def main(user, passwd, orgname):
 
     repos = g.get_organization(orgname).get_repos()
 
-    unpack_root = os.path.abspath(os.path.join(os.getcwd(), '..', 'archive-for-processing--cache', 'repos'))
+    unpack_root = os.path.abspath(os.path.join(os.getcwd(), '..', '..', 'archive-for-processing--cache', 'repos'))
     os.makedirs(unpack_root, exist_ok=True)
 
     # for repo in g.get_user().get_repos():
