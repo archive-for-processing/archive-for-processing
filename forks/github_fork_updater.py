@@ -89,8 +89,11 @@ original clone operation was successful / valid.
 
 """
 
-from github import Github
+from github import Github, GithubException
 import os
+
+import sys
+sys.path.append('..')
 import config.config as cfg
 
 def main(user, passwd, orgname):
@@ -111,7 +114,16 @@ def main(user, passwd, orgname):
         try:
             load_orig_clone_url = repo.source.clone_url
         except (AttributeError) as err:
+            print(err)
             continue
+            
+        # some repos, eg p5jsShaderExamples, don't have a master branch at all
+        try:
+            msha = repo.get_branch('master').commit.sha
+        except (GithubException) as err:
+            print(err)
+            continue
+        
         if repo.clone_url and repo.source.clone_url and repo.get_branch('master').commit.sha != repo.source.get_branch('master').commit.sha:
 
             # Note that this doesn't always work.
