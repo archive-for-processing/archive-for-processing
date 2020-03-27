@@ -46,9 +46,13 @@ git commit -m "$zipcommit"
 # independently, update forks
 # this is a separate local dir,
 # shouldn't affect repo files
+# ...first apply credentials from stash
+git stash apply stash@{0}
 read -n1 -r -s -p "Updating forks: Press any key to continue or Ctrl-C to exit..."
 cd forks
 ./github_fork_updater.py 
 cd ../
 
+# remove credentials
+git checkout -- config/config.py
 printf "\nDone!\n\n"
