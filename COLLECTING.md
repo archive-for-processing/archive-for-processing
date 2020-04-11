@@ -2,6 +2,95 @@
 
 Notes on collecting for the Archive for Processing project.
 
+## Forked Libraries
+
+(i.e. Libraries that are GitHub-forked from the processing library template)
+
+The GitHub library template was created long prior to the GitHub implementation of a "template" repo copying feature.
+
+https://github.com/processing/processing-library-template
+
+As a result, most GitHub repos for Processing libraries are "forks." A limitation of GitHub is that one account cannot create multiple fork repos from the same tree. For this reason, the Archive for Processing GitHub account may make a fork of the template...
+
+https://github.com/archive-for-processing/processing-library-template
+
+...but it may not then fork any of the ~60 original libraries which are forks of that template. Only one may be chosen.
+
+-  https://github.com/audreyseo/FunGUI
+-  https://github.com/BenVanCitters/SeeneLib---Processing-Library
+-  https://github.com/Blinkinlabs/BlinkyTape_Processing
+-  https://github.com/bontempos/ProjectionMatrix
+-  https://github.com/ciaron/HPGLGraphics
+-  https://github.com/clankill3r/keystoned
+-  https://github.com/dante-biase/processing-button
+-  https://github.com/darkwave/ARsenico
+-  https://github.com/DeqingSun/JD2XXProcessing
+-  https://github.com/dhchoi/processing-countdowntimer
+-  https://github.com/enkatsu/ZXingP5
+-  https://github.com/ericfickes/FIXLIB
+-  https://github.com/erniejunior/VSync-for-Processing
+-  https://github.com/euphy/polargraphlib
+-  https://github.com/fabianmoronzirfas/P5ColorThief
+-  https://github.com/FeibAmsterdam/GM4P
+-  https://github.com/fluffyaudio/GLSL-Shaders-Library
+-  https://github.com/interstar/Patterning-for-Processing
+-  https://github.com/itsshreyarora/MotionGame
+-  https://github.com/ixd-hof/HersheyFont
+-  https://github.com/jagracar/grafica
+-  https://github.com/jakedubber/bloblib
+-  https://github.com/JohnMasen/processing-SmartGrid
+-  https://github.com/katiewalker/tactile-graphics-processing
+-  https://github.com/kjacob12/MazeGenerator
+-  https://github.com/leesy24/UDP
+-  https://github.com/lemniscate8/STL
+-  https://github.com/manoloide/manoloide-library
+-  https://github.com/Minimaximize/KML-For-Processing
+-  https://github.com/Mystfit/Showtime-Processing
+-  https://github.com/nclavaud/picking
+-  https://github.com/nickcuthbert/SnapperTurtle
+-  https://github.com/nyatla/mbedJS-Processing-API
+-  https://github.com/openlabroma/GameOverLibrary
+-  https://github.com/orgicus/OSCTap
+-  https://github.com/patshiu/lenny_lib
+-  https://github.com/philipkobernik/dancing-drawings
+-  https://github.com/pierdr/Tramontana-for-Processing-project
+-  https://github.com/pion3er/RiftIt
+-  https://github.com/PlayfulLearningLab/CodeAndChordsLibrary
+-  https://github.com/raissi/processing-spark-client
+-  https://github.com/remixlab/proscene
+-  https://github.com/prisonerjohn/NextText
+-  https://github.com/Prometal328/elementary-gui-project
+-  https://github.com/ptierney/Autodesk.Processing.LibG
+-  https://github.com/radiodario/lazerwrap
+-  https://github.com/rpoisel/BaseProgram
+-  https://github.com/saksopheaktrapho/Adafruit_PWM_Servo_Driver
+-  https://github.com/sekassel/processing-library-oculusriftp5
+-  https://github.com/sherman464/Visualizer
+-  https://github.com/Shinhoo/Wooting-Keyboard-Library
+-  https://github.com/teamlet/OpenCV4-for-Processing
+-  https://github.com/TheMaxJ/Chartly
+-  https://github.com/triss/colourlovers
+-  https://github.com/tsarjak/color-blindness-imageprocessing
+-  https://github.com/turanegaku/KeyManager
+-  https://github.com/uoarttech/twitterp
+-  https://github.com/zlot/honours-creatures-library
+
+These are also forks of the template which do not customize the repo name, but are nontheless distinct projects:
+
+-  https://github.com/grant-oakley/processing-library-template (ColorMapPer)
+-  https://github.com/kang36897/processing-library-template (firework)
+
+And these are also a set of parallel forks -- all called "planetarium", and possibly related (although not seen by GitHub as a subtree).
+
+-  https://github.com/AfshinKoupaei/planetarium
+-  https://github.com/ErinFinnegan/planetarium
+-  https://github.com/FH-Potsdam/planetarium
+-  https://github.com/imclab/planetarium
+-  https://github.com/thomasbabuj/planetarium
+
+
+## NOTES
+
 ### libraries
 
 Contributed libraries -- this means all libraries _except_ ones integrated into Processing / p5.js / PDE or hosted on the official processing foundation github account at https://github.com/processing/.
@@ -123,6 +212,14 @@ Contributed libraries -- this means all libraries _except_ ones integrated into 
    -  SeeneLib https://forum.processing.org/two/discussion/935/unofficial-seene-library https://github.com/BenVanCitters/SeeneLib---Processing-Library
    -  vsync https://github.com/erniejunior/VSync-for-Processing
    -  wooting keyboard https://github.com/Shinhoo/Wooting-Keyboard-Library
+
+Dropping proscene for now as account fork in favor of original template, locally archived -- note:
+
+> https://github.com/remixlab/proscene
+> 	https://github.com/remixlab/proscene/releases
+> 	Oct 9, 2019
+> 	This project is deprecated and will soon no longer be available. Download the nub library instead.
+> https://github.com/archive-for-processing/proscene
 
 
 ## modes and related systems
