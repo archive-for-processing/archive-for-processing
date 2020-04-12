@@ -55,4 +55,9 @@ cd ../
 
 # remove credentials
 git checkout -- config/config.py
+# exit virtualenv workon
+deactivate
+
+# return to default branch
+git checkout master
 printf "\nDone!\n\n"
