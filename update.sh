@@ -20,7 +20,9 @@ git merge master --log --no-edit
 ./contributions/contrib_archive.py
 
 # 3. commit txt to data
+git add contributions/sources.conf
 git add contributions/txt/\*.txt
+git status
 printf "\n$txtcommit\n"
 read -n1 -r -s -p "Press any key to continue or Ctrl-C to exit..."
 git commit -m "$txtcommit"
@@ -38,9 +40,10 @@ git merge data --log --no-edit
 
 # 6. add zips to zip branch and commit
 mv $tmp_dir/*.zip contributions/zip/
+git add contributions/zip/\*.zip
+git status
 printf "\n$zipcommit\n"
 read -n1 -r -s -p "Press any key to continue or Ctrl-C to exit..."
-git add contributions/zip/\*.zip
 git commit -m "$zipcommit"
 
 # independently, update forks
