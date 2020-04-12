@@ -14,6 +14,10 @@ This GitHub organization account approaches this goal in the following ways:
       https://github.com/archive-for-processing
    -  For projects under development or maintainence, the forks
       are periodically updated to their latest master commit.
+   -  Libraries forked from the Processing Library Template cannot
+      be archived in this way -- they are instead available
+      through a parallel project, **Processing Forked Libraries**:
+      https://github.com/archive-for-processing/processing-forked-libraries
    -  To recommend a fork, open an issue on this repo.
 
 2. Contributions
@@ -63,10 +67,10 @@ This repository contains two main scripts:
 ## Sources
 
 The GitHub project account contains a large number of forked repos.
-These are maintained through a github org account and its forks.
+This list is maintained through a github org account and its forks.
 Some of these (and some resources which are not repos, or cannot be forked) are found below in a manually updated and sorted list. Repo forks are periodically brought up to date on their master branch with `github_fork_updater.py` 
 
-Forks are only made of public repos. If accounts are removed, repos are deleted, or repos are taken private, the archive fork attempts to preserve that last public snapshot of the repo.
+Forks are only made of public repos. If accounts are removed, or repos are deleted, or repos are taken private, then the archive fork attempts to preserve the last public snapshot of the repo.
 
 > https://help.github.com/en/articles/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility
 >
