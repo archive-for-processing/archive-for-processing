@@ -12,6 +12,20 @@ zipcommit="contributions/zip: update $dateslug"
 source ~/.bash_profile
 workon archive_for_processing
 
+# independently, update forks
+# this is a separate local dir,
+# shouldn't affect repo files
+# ...first apply credentials from stash
+git stash apply stash@{0}
+read -n1 -r -s -p "Updating forks: Press any key to continue or Ctrl-C to exit..."
+cd forks
+./github_fork_updater.py 
+cd ../
+# remove credentials
+git checkout -- config/config.py
+# exit virtualenv workon
+deactivate
+
 # 1. merge master into data
 git checkout data
 git merge master --log --no-edit
@@ -45,21 +59,6 @@ git status
 printf "\n$zipcommit\n"
 read -n1 -r -s -p "Press any key to continue or Ctrl-C to exit..."
 git commit -m "$zipcommit"
-
-# independently, update forks
-# this is a separate local dir,
-# shouldn't affect repo files
-# ...first apply credentials from stash
-git stash apply stash@{0}
-read -n1 -r -s -p "Updating forks: Press any key to continue or Ctrl-C to exit..."
-cd forks
-./github_fork_updater.py 
-cd ../
-
-# remove credentials
-git checkout -- config/config.py
-# exit virtualenv workon
-deactivate
 
 # return to default branch
 git checkout master
