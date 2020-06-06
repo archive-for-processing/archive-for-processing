@@ -50,7 +50,7 @@ described here https://help.github.com/en/articles/syncing-a-fork :
 
 The script currently uses PyGitHub to get the list of repos and their sources,
 then uses os.system calls to execute with git on the command line. This assumes
-that both the script and the shell have password access to the git account.
+that both the script and the shell have token access to the git account.
 
 This could have been wrapped into a small shell command and called from python.
 Other ways of doing the checkout / merge / push might include:
@@ -96,8 +96,8 @@ import sys
 sys.path.append('..')
 import config.config as cfg
 
-def main(user, passwd, orgname):
-    g = Github(user, passwd)
+def main(token, orgname):
+    g = Github(token)
     # g = Github("access_token")
 
     repos = g.get_organization(orgname).get_repos()
@@ -179,10 +179,9 @@ def main(user, passwd, orgname):
 
 if __name__ == "__main__":
     # Either configure here or in config/config.py
-    username=''
-    password=''
+    token=''
     org_name=''
-    if username and password and org_name:
-        main(username, password, org_name)
+    if token and org_name:
+        main(token, org_name)
     else:
-        main(cfg.MY_USERNAME, cfg.MY_PASSWORD, cfg.MY_GITHUB_ORG)
+        main(cfg.MY_GITHUB_TOKEN, cfg.MY_GITHUB_ORG)
